@@ -1,0 +1,8 @@
+vhdtdtfi -lib work F:/MyDocuments/3140100193/Framework/Code/PIO.v -lang verilog -prj Framework -o PIO.spl -module PIO -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 PIO.spl F:/MyDocuments/3140100193/Framework/PIO.sym 
+vhdtdtfi -lib work F:/MyDocuments/3140100193/Framework/Code/PIO.v -lang verilog -prj Framework -o PIO.spl -module PIO -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 PIO.spl F:/MyDocuments/3140100193/Framework/PIO.sym 
+vhdtdtfi -lib work F:/MyDocuments/3140100193/Framework/Code/PIO.v -lang verilog -prj Framework -o PIO.spl -module PIO -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 PIO.spl F:/MyDocuments/3140100193/Framework/PIO.sym 
+vhdtdtfi -lib work F:/MyDocuments/3140100193/Framework/Code/PIO.v -lang verilog -prj Framework -o PIO.spl -module PIO -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 PIO.spl F:/MyDocuments/3140100193/Framework/PIO.sym 

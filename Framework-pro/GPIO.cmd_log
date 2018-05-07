@@ -1,0 +1,9 @@
+vhdtdtfi -lib work F:/MyDocuments/3140100193/Framework/Code/GPIO.v -lang verilog -prj Framework -o GPIO.spl -module GPIO -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 GPIO.spl F:/MyDocuments/3140100193/Framework/GPIO.sym 
+vhdtdtfi -lib work F:/MyDocuments/3140100193/Framework/Code/GPIO.v -lang verilog -prj Framework -o GPIO.spl -module GPIO -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 GPIO.spl F:/MyDocuments/3140100193/Framework/GPIO.sym 
+vhdtdtfi -lang verilog -prj Framework -o F:/MyDocuments/3140100193/Framework/GPIO.tfi -lib work F:/MyDocuments/3140100193/Framework/Code//GPIO.v -module GPIO -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work F:/MyDocuments/3140100193/Framework/Code/GPIO.v -lang verilog -prj Framework -o GPIO.spl -module GPIO -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 GPIO.spl F:/MyDocuments/3140100193/Framework/GPIO.sym 
+vhdtdtfi -lib work C:/Users/CST/Desktop/3140100333/Framework/Code/GPIO.v -lang verilog -prj Framework -o GPIO.spl -module GPIO -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 GPIO.spl C:/Users/CST/Desktop/3140100333/Framework/GPIO.sym 

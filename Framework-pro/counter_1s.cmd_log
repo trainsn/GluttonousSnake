@@ -1,0 +1,2 @@
+vhdtdtfi -lib work H:/MyDocuments/3140100193/Framework-pro/Code/counter_1s.v -lang verilog -prj Framework -o counter_1s.spl -module counter_1s -template d:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 counter_1s.spl H:/MyDocuments/3140100193/Framework-pro/counter_1s.sym 

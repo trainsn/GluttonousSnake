@@ -1,0 +1,14 @@
+[Inputs]
+clk
+rst
+=headX[5:0]=
+=headY[5:0]=
+[Outputs]
+addLength
+=foodX[5:0]=
+=foodY[5:0]=
+=score[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel Snake_Eatting_Food
+

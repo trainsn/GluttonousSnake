@@ -1,0 +1,16 @@
+sch2hdl,-sympath,E:/logic/Framework-pro/ngc,-intstyle,ise,-family,kintex7,-verilog,E:/logic/Framework-pro/Framework_sch.vf,-w,E:/logic/Framework-pro/Code/Framework_sch.sch
+sch2hdl,-sympath,E:/logic/Framework-pro/ngc,-intstyle,ise,-family,kintex7,-verilog,E:/logic/Framework-pro/MB_DFF.vf,-w,E:/logic/Framework-pro/Code/MB_DFF.sch
+sch2hdl,-sympath,E:/logic/Framework-pro/ngc,-intstyle,ise,-family,kintex7,-verilog,E:/logic/Framework-pro/Decoder_38_sch.vf,-w,E:/logic/Framework-pro/Code/Decoder_38_sch.sch
+sch2hdl,-sympath,E:/logic/Framework-pro/ngc,-intstyle,ise,-family,kintex7,-verilog,E:/logic/Framework-pro/HCT138_sch.vf,-w,E:/logic/Framework-pro/Code/HCT138_sch.sch
+sch2hdl,-sympath,E:/logic/Framework-pro/ngc,-intstyle,ise,-family,kintex7,-verilog,E:/logic/Framework-pro/counter4.vf,-w,E:/logic/Framework-pro/Code/counter4.sch
+sch2hdl,-sympath,E:/logic/Framework-pro/ngc,-intstyle,ise,-family,kintex7,-verilog,E:/logic/Framework-pro/ADC32.vf,-w,E:/logic/Framework-pro/Code/ADC32.sch
+sch2hdl,-sympath,E:/logic/Framework-pro/ngc,-intstyle,ise,-family,kintex7,-verilog,E:/logic/Framework-pro/CLA.vf,-w,E:/logic/Framework-pro/Code/CLA.sch
+sch2hdl,-sympath,E:/logic/Framework-pro/ngc,-intstyle,ise,-family,kintex7,-verilog,E:/logic/Framework-pro/add.vf,-w,E:/logic/Framework-pro/Code/add.sch
+sch2hdl,-sympath,E:/logic/Framework-pro/ngc,-intstyle,ise,-family,kintex7,-verilog,E:/logic/Framework-pro/add4b.vf,-w,E:/logic/Framework-pro/Code/add4b.sch
+sch2hdl,-sympath,E:/logic/Framework-pro/ngc,-intstyle,ise,-family,kintex7,-verilog,E:/logic/Framework-pro/ScanSync.vf,-w,E:/logic/Framework-pro/Code/ScanSync.sch
+sch2hdl,-sympath,E:/logic/Framework-pro/ngc,-intstyle,ise,-family,kintex7,-verilog,E:/logic/Framework-pro/Seg7_Dev.vf,-w,E:/logic/Framework-pro/Code/Seg7_Dev.sch
+sch2hdl,-sympath,E:/logic/Framework-pro/ngc,-intstyle,ise,-family,kintex7,-verilog,E:/logic/Framework-pro/Display.vf,-w,E:/logic/Framework-pro/Code/Display.sch
+sch2hdl,-sympath,E:/logic/Framework-pro/ngc,-intstyle,ise,-family,kintex7,-verilog,E:/logic/Framework-pro/ExMUX_sch.vf,-w,E:/logic/Framework-pro/Code/ExMUX_sch.sch
+sch2hdl,-sympath,E:/logic/Framework-pro/ngc,-intstyle,ise,-family,kintex7,-verilog,E:/logic/Framework-pro/MUX441.vf,-w,E:/logic/Framework-pro/Code/MUX441.sch
+sch2hdl,-sympath,E:/logic/Framework-pro/ngc,-intstyle,ise,-family,kintex7,-verilog,E:/logic/Framework-pro/MUX8T1_32.vf,-w,E:/logic/Framework-pro/Code/MUX8T1_32.sch
+sch2hdl,-sympath,E:/logic/Framework-pro/ngc,-intstyle,ise,-family,kintex7,-verilog,E:/logic/Framework-pro/MC14495_ZJU.vf,-w,E:/logic/Framework-pro/Code/MC14495_ZJU.sch

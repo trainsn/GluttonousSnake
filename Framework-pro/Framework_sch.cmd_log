@@ -1,0 +1,10 @@
+sch2sym -intstyle ise -family kintex7 -refsym Framework_sch E:/logic/Framework-pro/Code/Framework_sch.sch E:/logic/Framework-pro/Framework_sch.sym 
+xst -intstyle ise -ifn "E:/logic/Framework-pro/Framework_sch.xst" -ofn "E:/logic/Framework-pro/Framework_sch.syr" 
+xst -intstyle ise -ifn "E:/logic/Framework-pro/Framework_sch.xst" -ofn "E:/logic/Framework-pro/Framework_sch.syr" 
+xst -intstyle ise -ifn "E:/logic/Framework-pro/Framework_sch.xst" -ofn "E:/logic/Framework-pro/Framework_sch.syr" 
+xst -intstyle ise -ifn "E:/logic/Framework-pro/Framework_sch.xst" -ofn "E:/logic/Framework-pro/Framework_sch.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ngc -nt timestamp -uc Code/UCF.ucf -p xc7k160t-ffg676-2L Framework_sch.ngc Framework_sch.ngd  
+map -intstyle ise -p xc7k160t-ffg676-2L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o Framework_sch_map.ncd Framework_sch.ngd Framework_sch.pcf 
+par -w -intstyle ise -ol high -mt off Framework_sch_map.ncd Framework_sch.ncd Framework_sch.pcf 
+trce -intstyle ise -v 3 -s 2L -n 3 -fastpaths -xml Framework_sch.twx Framework_sch.ncd -o Framework_sch.twr Framework_sch.pcf 
+bitgen -intstyle ise -f Framework_sch.ut Framework_sch.ncd 

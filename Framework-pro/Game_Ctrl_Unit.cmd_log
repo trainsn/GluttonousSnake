@@ -1,0 +1,4 @@
+vhdtdtfi -lib work H:/MyDocuments/3140100193/Framework-pro/Code/Game_Ctrl_Unit.v -lang verilog -prj Framework -o Game_Ctrl_Unit.spl -module Game_Ctrl_Unit -template d:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 Game_Ctrl_Unit.spl H:/MyDocuments/3140100193/Framework-pro/Game_Ctrl_Unit.sym 
+vhdtdtfi -lib work H:/MyDocuments/3140100193/Framework-pro/Code/Game_Ctrl_Unit.v -lang verilog -prj Framework -o Game_Ctrl_Unit.spl -module Game_Ctrl_Unit -template d:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 Game_Ctrl_Unit.spl H:/MyDocuments/3140100193/Framework-pro/Game_Ctrl_Unit.sym 

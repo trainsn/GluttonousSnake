@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/logic/Framework-pro/testEat_isim_beh.exe" -prj "E:/logic/Framework-pro/testEat_beh.prj" "work.testEat" "work.glbl" 

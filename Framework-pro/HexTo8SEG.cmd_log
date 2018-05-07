@@ -1,0 +1,2 @@
+vhdtdtfi -lib work F:/MyDocuments/3140100193/Framework/Code/HexTo8SEG.v -lang verilog -prj Framework -o HexTo8SEG.spl -module HexTo8SEG -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 HexTo8SEG.spl F:/MyDocuments/3140100193/Framework/HexTo8SEG.sym 

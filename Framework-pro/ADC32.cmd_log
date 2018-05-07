@@ -1,0 +1,2 @@
+sch2hdl -sympath C:/Users/CST/Desktop/3140100333/Framework/ngc -intstyle ise -family kintex7 -verilog ADC32_drc.vf -w C:/Users/CST/Desktop/3140100333/Framework/Code/ADC32.sch 
+sch2hdl -sympath C:/Users/CST/Desktop/3140100333/Framework/ngc -intstyle ise -family kintex7 -verilog ADC32.vf -w C:/Users/CST/Desktop/3140100333/Framework/Code/ADC32.sch 

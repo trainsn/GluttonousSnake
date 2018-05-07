@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\logic\Framework-pro\Framework_sch.ncd
+OUTFILE=E:\logic\Framework-pro\Framework_sch.bit
+FAMILY=Kintex7
+PART=xc7k160t-2lffg676
+WORKINGDIR=E:\logic\Framework-pro
+LICENSE=WebPack
+USER_INFO=__0_0_0

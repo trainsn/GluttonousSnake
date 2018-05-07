@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj Framework -o C:/Users/CST/Desktop/3140100333/Framework/ALU.tfi -lib work C:/Users/CST/Desktop/3140100333/Framework/Code//ALU.v -module ALU -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

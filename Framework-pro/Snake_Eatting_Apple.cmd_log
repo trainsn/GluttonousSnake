@@ -1,0 +1,10 @@
+vhdtdtfi -lib work F:/3140100193/Framework-pro/Code/Snake_Eatting_Apple.v -lang verilog -prj Framework -o Snake_Eatting_Apple.spl -module Snake_Eatting_Apple -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 Snake_Eatting_Apple.spl F:/3140100193/Framework-pro/Snake_Eatting_Apple.sym 
+vhdtdtfi -lib work F:/3140100193/Framework-pro/Code/Snake_Eatting_Apple.v -lang verilog -prj Framework -o Snake_Eatting_Apple.spl -module Snake_Eatting_Apple -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 Snake_Eatting_Apple.spl F:/3140100193/Framework-pro/Snake_Eatting_Apple.sym 
+vhdtdtfi -lib work F:/3140100193/Framework-pro/Code/Snake_Eatting_Apple.v -lang verilog -prj Framework -o Snake_Eatting_Apple.spl -module Snake_Eatting_Apple -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 Snake_Eatting_Apple.spl F:/3140100193/Framework-pro/Snake_Eatting_Apple.sym 
+vhdtdtfi -lib work G:/3140100193/Framework-pro/Code/Snake_Eatting_Apple.v -lang verilog -prj Framework -o Snake_Eatting_Apple.spl -module Snake_Eatting_Apple -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 Snake_Eatting_Apple.spl G:/3140100193/Framework-pro/Snake_Eatting_Apple.sym 
+vhdtdtfi -lib work G:/3140100193/Framework-pro/Code/Snake_Eatting_Apple.v -lang verilog -prj Framework -o Snake_Eatting_Apple.spl -module Snake_Eatting_Apple -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 Snake_Eatting_Apple.spl G:/3140100193/Framework-pro/Snake_Eatting_Apple.sym 

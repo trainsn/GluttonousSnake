@@ -1,0 +1,6 @@
+vhdtdtfi -lib work F:/3140100193/Framework-pro/Code/Snake.v -lang verilog -prj Framework -o Snake.spl -module Snake -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 Snake.spl F:/3140100193/Framework-pro/Snake.sym 
+vhdtdtfi -lib work H:/MyDocuments/3140100193/Framework-pro/Code/Snake.v -lang verilog -prj Framework -o Snake.spl -module Snake -template d:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 Snake.spl H:/MyDocuments/3140100193/Framework-pro/Snake.sym 
+vhdtdtfi -lib work H:/MyDocuments/3140100193/Framework-pro/Code/Snake.v -lang verilog -prj Framework -o Snake.spl -module Snake -template d:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 Snake.spl H:/MyDocuments/3140100193/Framework-pro/Snake.sym 

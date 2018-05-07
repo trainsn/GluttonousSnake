@@ -1,0 +1,16 @@
+vhdtdtfi -lib work F:/3140100193/Framework-pro/Code/VGA_Control.v -lang verilog -prj Framework -o VGA_Control.spl -module VGA_Control -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 VGA_Control.spl F:/3140100193/Framework-pro/VGA_Control.sym 
+vhdtdtfi -lib work F:/3140100193/Framework-pro/Code/VGA_Control.v -lang verilog -prj Framework -o VGA_Control.spl -module VGA_Control -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 VGA_Control.spl F:/3140100193/Framework-pro/VGA_Control.sym 
+vhdtdtfi -lib work F:/3140100193/Framework-pro/Code/VGA_Control.v -lang verilog -prj Framework -o VGA_Control.spl -module VGA_Control -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 VGA_Control.spl F:/3140100193/Framework-pro/VGA_Control.sym 
+vhdtdtfi -lib work F:/3140100193/Framework-pro/Code/VGA_Control.v -lang verilog -prj Framework -o VGA_Control.spl -module VGA_Control -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 VGA_Control.spl F:/3140100193/Framework-pro/VGA_Control.sym 
+vhdtdtfi -lib work H:/MyDocuments/3140100193/Framework-pro/Code/VGA_Control.v -lang verilog -prj Framework -o VGA_Control.spl -module VGA_Control -template d:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 VGA_Control.spl H:/MyDocuments/3140100193/Framework-pro/VGA_Control.sym 
+vhdtdtfi -lib work H:/MyDocuments/3140100193/Framework-pro/Code/VGA_Control.v -lang verilog -prj Framework -o VGA_Control.spl -module VGA_Control -template d:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 VGA_Control.spl H:/MyDocuments/3140100193/Framework-pro/VGA_Control.sym 
+vhdtdtfi -lib work H:/MyDocuments/3140100193/Framework-pro/Code/VGA_Control.v -lang verilog -prj Framework -o VGA_Control.spl -module VGA_Control -template d:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 VGA_Control.spl H:/MyDocuments/3140100193/Framework-pro/VGA_Control.sym 
+vhdtdtfi -lib work H:/MyDocuments/3140100193/Framework-pro/Code/VGA_Control.v -lang verilog -prj Framework -o VGA_Control.spl -module VGA_Control -template d:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 VGA_Control.spl H:/MyDocuments/3140100193/Framework-pro/VGA_Control.sym 

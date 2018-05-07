@@ -1,0 +1,14 @@
+vhdtdtfi -lib work H:/MyDocuments/3140100193/Framework-pro/Code/Snake_Eatting_Food.v -lang verilog -prj Framework -o Snake_Eatting_Food.spl -module Snake_Eatting_Food -template d:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 Snake_Eatting_Food.spl H:/MyDocuments/3140100193/Framework-pro/Snake_Eatting_Food.sym 
+vhdtdtfi -lib work H:/MyDocuments/3140100193/Framework-pro/Code/Snake_Eatting_Food.v -lang verilog -prj Framework -o Snake_Eatting_Food.spl -module Snake_Eatting_Food -template d:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 Snake_Eatting_Food.spl H:/MyDocuments/3140100193/Framework-pro/Snake_Eatting_Food.sym 
+vhdtdtfi -lib work H:/MyDocuments/3140100193/Framework-pro/Code/Snake_Eatting_Food.v -lang verilog -prj Framework -o Snake_Eatting_Food.spl -module Snake_Eatting_Food -template d:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 Snake_Eatting_Food.spl H:/MyDocuments/3140100193/Framework-pro/Snake_Eatting_Food.sym 
+vhdtdtfi -lib work H:/MyDocuments/3140100193/Framework-pro/Code/Snake_Eatting_Food.v -lang verilog -prj Framework -o Snake_Eatting_Food.spl -module Snake_Eatting_Food -template d:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 Snake_Eatting_Food.spl H:/MyDocuments/3140100193/Framework-pro/Snake_Eatting_Food.sym 
+vhdtdtfi -lib work E:/logic/Framework-pro/Code/Snake_Eatting_Food.v -lang verilog -prj Framework -o Snake_Eatting_Food.spl -module Snake_Eatting_Food -template d:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 Snake_Eatting_Food.spl E:/logic/Framework-pro/Snake_Eatting_Food.sym 
+vhdtdtfi -lib work E:/logic/Framework-pro/Code/Snake_Eatting_Food.v -lang verilog -prj Framework -o Snake_Eatting_Food.spl -module Snake_Eatting_Food -template d:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 Snake_Eatting_Food.spl E:/logic/Framework-pro/Snake_Eatting_Food.sym 
+vhdtdtfi -lib work E:/logic/Framework-pro/Code/Snake_Eatting_Food.v -lang verilog -prj Framework -o Snake_Eatting_Food.spl -module Snake_Eatting_Food -template d:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family kintex7 Snake_Eatting_Food.spl E:/logic/Framework-pro/Snake_Eatting_Food.sym 

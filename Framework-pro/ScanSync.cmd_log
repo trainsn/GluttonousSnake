@@ -1,0 +1,2 @@
+sch2hdl -sympath F:/MyDocuments/3140100193/Framework/ngc -intstyle ise -family kintex7 -verilog ScanSync.vf -w F:/MyDocuments/3140100193/Framework/Code/ScanSync.sch 
+sch2sym -intstyle ise -family kintex7 -refsym ScanSync F:/MyDocuments/3140100193/Framework/Code/ScanSync.sch F:/MyDocuments/3140100193/Framework/ScanSync.sym 

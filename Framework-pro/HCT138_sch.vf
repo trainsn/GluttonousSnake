@@ -1,0 +1,185 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : HCT138_sch.vf
+// /___/   /\     Timestamp : 01/09/2017 15:46:15
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -sympath E:/logic/Framework-pro/ngc -intstyle ise -family kintex7 -verilog E:/logic/Framework-pro/HCT138_sch.vf -w E:/logic/Framework-pro/Code/HCT138_sch.sch
+//Design Name: HCT138_sch
+//Device: kintex7
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Decoder_38_sch_MUSER_HCT138_sch(A, 
+                                       B, 
+                                       C, 
+                                       D0, 
+                                       D1, 
+                                       D2, 
+                                       D3, 
+                                       D4, 
+                                       D5, 
+                                       D6, 
+                                       D7);
+
+    input A;
+    input B;
+    input C;
+   output D0;
+   output D1;
+   output D2;
+   output D3;
+   output D4;
+   output D5;
+   output D6;
+   output D7;
+   
+   wire XLXN_6;
+   wire XLXN_7;
+   wire XLXN_16;
+   wire XLXN_17;
+   wire XLXN_18;
+   wire XLXN_19;
+   wire XLXN_30;
+   
+   INV  XLXI_1 (.I(A), 
+               .O(XLXN_6));
+   INV  XLXI_2 (.I(B), 
+               .O(XLXN_7));
+   AND2  XLXI_3 (.I0(XLXN_7), 
+                .I1(XLXN_6), 
+                .O(XLXN_16));
+   AND2  XLXI_4 (.I0(XLXN_7), 
+                .I1(A), 
+                .O(XLXN_17));
+   AND2  XLXI_5 (.I0(B), 
+                .I1(XLXN_6), 
+                .O(XLXN_18));
+   AND2  XLXI_6 (.I0(B), 
+                .I1(A), 
+                .O(XLXN_19));
+   INV  XLXI_16 (.I(C), 
+                .O(XLXN_30));
+   AND2  XLXI_28 (.I0(XLXN_30), 
+                 .I1(XLXN_16), 
+                 .O(D0));
+   AND2  XLXI_29 (.I0(XLXN_30), 
+                 .I1(XLXN_17), 
+                 .O(D1));
+   AND2  XLXI_30 (.I0(XLXN_30), 
+                 .I1(XLXN_18), 
+                 .O(D2));
+   AND2  XLXI_31 (.I0(XLXN_30), 
+                 .I1(XLXN_19), 
+                 .O(D3));
+   AND2  XLXI_32 (.I0(C), 
+                 .I1(XLXN_16), 
+                 .O(D4));
+   AND2  XLXI_33 (.I0(C), 
+                 .I1(XLXN_17), 
+                 .O(D5));
+   AND2  XLXI_34 (.I0(C), 
+                 .I1(XLXN_18), 
+                 .O(D6));
+   AND2  XLXI_35 (.I0(C), 
+                 .I1(XLXN_19), 
+                 .O(D7));
+endmodule
+`timescale 1ns / 1ps
+
+module HCT138_sch(A, 
+                  B, 
+                  C, 
+                  G, 
+                  G_2A, 
+                  G_2B, 
+                  Y0, 
+                  Y1, 
+                  Y2, 
+                  Y3, 
+                  Y4, 
+                  Y5, 
+                  Y6, 
+                  Y7);
+
+    input A;
+    input B;
+    input C;
+    input G;
+    input G_2A;
+    input G_2B;
+   output Y0;
+   output Y1;
+   output Y2;
+   output Y3;
+   output Y4;
+   output Y5;
+   output Y6;
+   output Y7;
+   
+   wire XLXN_1;
+   wire XLXN_2;
+   wire XLXN_3;
+   wire XLXN_4;
+   wire XLXN_5;
+   wire XLXN_6;
+   wire XLXN_7;
+   wire XLXN_8;
+   wire XLXN_9;
+   wire XLXN_10;
+   wire XLXN_11;
+   
+   Decoder_38_sch_MUSER_HCT138_sch  XLXI_2 (.A(A), 
+                                           .B(B), 
+                                           .C(C), 
+                                           .D0(XLXN_1), 
+                                           .D1(XLXN_2), 
+                                           .D2(XLXN_3), 
+                                           .D3(XLXN_4), 
+                                           .D4(XLXN_5), 
+                                           .D5(XLXN_6), 
+                                           .D6(XLXN_7), 
+                                           .D7(XLXN_8));
+   NAND2  XLXI_3 (.I0(XLXN_9), 
+                 .I1(XLXN_1), 
+                 .O(Y0));
+   NAND2  XLXI_4 (.I0(XLXN_9), 
+                 .I1(XLXN_2), 
+                 .O(Y1));
+   NAND2  XLXI_6 (.I0(XLXN_9), 
+                 .I1(XLXN_3), 
+                 .O(Y2));
+   NAND2  XLXI_7 (.I0(XLXN_9), 
+                 .I1(XLXN_4), 
+                 .O(Y3));
+   NAND2  XLXI_8 (.I0(XLXN_9), 
+                 .I1(XLXN_5), 
+                 .O(Y4));
+   NAND2  XLXI_9 (.I0(XLXN_9), 
+                 .I1(XLXN_6), 
+                 .O(Y5));
+   NAND2  XLXI_10 (.I0(XLXN_9), 
+                  .I1(XLXN_7), 
+                  .O(Y6));
+   NAND2  XLXI_11 (.I0(XLXN_9), 
+                  .I1(XLXN_8), 
+                  .O(Y7));
+   INV  XLXI_13 (.I(G_2A), 
+                .O(XLXN_10));
+   INV  XLXI_14 (.I(G_2B), 
+                .O(XLXN_11));
+   AND3  XLXI_15 (.I0(G), 
+                 .I1(XLXN_11), 
+                 .I2(XLXN_10), 
+                 .O(XLXN_9));
+endmodule
